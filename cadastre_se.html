@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+    <head>
+        <title>Cadastro de Usuário</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" type="text/css" href="css/estilo_cadastro.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo_dark.css">
+
+    </head>
+
+    <body>
+
+        <div id="cabecalho"><!--Início do cabeçalho-->
+            <header>
+                <img src="imagens/vaccine.png" alt="0" width="35"> E-Vac - Cartão Eletrônico de Vacinação                
+                <button onclick="window.location.href='index.html'" class="botaohome">
+                    <img src="imagens/home.png" alt="1" width="32"><br>
+                </button> 
+                <button onclick="window.location.href='login.html'" class="botaologin">
+                    <img src="imagens/login.png" alt="2" width="32"><br>
+                </button> 
+            </header>
+        </div><!--Fim do cabeçalho-->
+        <main>        
+            <!--Início da aba lateral-->
+                <div id="cxprincipal2">
+                                    
+                        <aside>
+                            <header>
+                                <h2>Cadastre-se<br>                                     
+                                    <img src="imagens/cadastre_se.png" alt="3" height="100">
+                                </h2>
+                            </header>
+                        </aside>
+                               
+                </div>
+            <!--Fim da aba lateral-->
+             
+            <h3>Escolha o tipo de usuáriuo</h3>
+        
+            <div>
+                
+                    <button onclick="window.location.href='cadastrocnes.html'" class="botaocad1">
+                        <img src="imagens/cadastro.png" alt="4" width="150"><br>
+                        Unidade de Saúde<br>
+                    </button>
+
+                    <button onclick="window.location.href='cadastrocpf.html'" class="botaocad2">
+                        <img src="imagens/cadastro_cnpj.png" alt="5" width="150"><br>
+                        Pessoa Física<br>
+                    </button>
+
+                    <button onclick="window.location.href='cadastrocnpj.html'" class="botaocad3">
+                        <img src="imagens/cadastro_inst_saude.png" alt="6" width="150"><br>
+                        Pessoa Jurídica<br>
+                    </button>                                              
+                
+            </div>
+
+            <div class="container">
+                <h1>&#9788; / &#9681;</h1><br>
+                <div class="toggle">
+                    <input id="switch" type="checkbox" name="theme">
+                    <label for="switch">Toggle</label>
+                </div>
+            </div>
+
+        </main>        
+        <script src="js/scripts.js"></script>
+    </body>
+
+</html>
